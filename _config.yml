@@ -1,5 +1,5 @@
 baseurl: "/showcase"
-permalink: http://isbhargav.github.io/showcase/:categories/:title.html
+permalink: /showcase/:categories/:title.html
 url: "http://isbhargav.github.io/showcase/"
 full_name: "Bhargav Lad"
 first_name: "Bhargav"
