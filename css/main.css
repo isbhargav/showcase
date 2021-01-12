@@ -139,42 +139,37 @@ h1 {
 	gap:10vh;
 	flex-wrap: wrap;
 	width: 100%;
-	margin: 0px 20px 20px 0px;
-	background: #fff;
+	/* margin: 0px 20px 20px 0px; */
+	background-color: #eee;
+	padding: 0 1.5rem;
+
 	/* margin: auto;
 	padding: 0px; */
-}
-
-#posts {
-	
-	
-	
-	
-	/* float: left;
-	border-radius: 3px;
-    //padding: 10px;
-    border: 1px solid #eee;
-    
-    background: none repeat scroll 0% 0% #FFF;
-border-radius: 3px;
-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15); */
 }
 
 #post {
 	box-shadow: 0 3px 6px rgba(149,157,165,0.15) !important;
 	border-radius: 4px !important;
-	flex: 1 1 40vh;
 	width: 100%;
+	max-width: 98rem;
+	padding: 5rem;
 	background: #fff;
-	border: 1px #e1e4e8 solid
+	box-shadow: 0 1.4rem 8rem rgba(0, 0, 0,.2);
+	border: 1px #e1e4e8 solid;
+	display: flex;
+	align-items: center;
+	border-radius: 0.8rem;
 
 }
 .post-title {
 	/* margin: 0px 0px 8px 0px;
 	line-height: 20px;
 	font-size: 20px;padding: 10px; */
-	font-size: 1.4rem;
-	margin: 0;
+	font-size: 2.5rem;
+	margin: 1.5rem 0 2rem;
+	text-transform: uppercase;
+	color: #4facfe;
+
 }
 
 .post-image{
@@ -182,14 +177,33 @@ box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15); */
 	box-shadow: 0 0px 0px #cccccc;
 	border-radius: 0px;
 		//margin: 10px 0px 10px 0px; */
-		max-width: 100%;
+		/* max-width: 100%;
 vertical-align: middle;
-box-sizing: border-box;
+box-sizing: border-box; */
+min-width: 35rem;
+max-width: 35rem;
+height: 30rem;
+transform: translateX(-8rem);
+position: relative;
+}
+.post-image img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+	border-radius: 0.8rem;
 }
 
-.post-date {
-	font-size: 11px;
-	color: #666;padding: 10px;
+.post-date span{
+	/* font-size: 11px;
+	color: #666;padding: 10px; */
+	display: block;
+	color: rgba(0, 0, 0,.5);
+	font-size: 1.6rem;
+	font-weight: 600;
+	margin: 0.5rem 0;
+
+
 }
 
 .post-content {
@@ -199,11 +213,9 @@ box-sizing: border-box;
 	padding: 20px 30px;
 	background: url('http://wpexplorer-demos.com/fabulous/wp-content/themes/wpex-fabulous/images/entry-meta-shadow.png') no-repeat scroll center top #FBFBFB;
 	border-radius: 0px 0px 3px 3px; */
-	font-size: 16px;
-	line-height: 1.8;
-	margin-top: .6rem;
-margin-bottom: .6rem;
-color: rgb(129, 129, 129);
+	margin-bottom: 3rem;
+	font-size: 1.4rem;
+	color: rgba(0, 0, 0,.7);
 }
 
 #side-bar {

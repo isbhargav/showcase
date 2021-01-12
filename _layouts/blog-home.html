@@ -41,14 +41,21 @@
 				
 					{% for post in site.categories.blog %}
 						<div class='post'>
+
 							{% if post.image %}
-								<a href='{{site.baseurl}}{{post.url}}'><img class='post-image' src="{{site.baseurl}}{{post.image}}" /></a>
+							<div class='post-image'>
+								<a href='{{site.baseurl}}{{post.url}}'><img src="{{site.baseurl}}{{post.image}}" /></a>
+							</div>
 							{% endif %}
+
 							<div class="postcontent">
-					<a href='{{site.baseurl}}{{post.url}}'><h1 class='post-title'>{{post.title}}</h1></a>
-								<div class='post-date'>{{ post.date | date: "%B %d, %Y"}}</div>
+					
+								<div class='post-date'><span>{{ post.date | date: "%B %d, %Y"}}</span></div>
+								<a href='{{site.baseurl}}{{post.url}}' class='post-title'>
+									<h1 >{{post.title}}</h1>
+								</a>
 								
-								<div class='post-content'>{{post.summary}}</div>
+								<div class='post-content'><p>{{post.summary}}<p></div>
 							</div>
 						</div>
 					{% endfor %}
