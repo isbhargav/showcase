@@ -126,12 +126,12 @@ h1 {
 	font-size: 13px;
 	background: #fff;
 }
-#posts a{
+/* #posts a{
 	display: block;
 	font-size: 1.5rem;
 	font-weight: normal;
 	
-}
+} */
 #posts {
 	list-style:none; 
 	display: flex;
@@ -139,7 +139,6 @@ h1 {
 	gap:10vh;
 	flex-wrap: wrap;
 	width: 100%;
-	/* margin: 0px 20px 20px 0px; */
 	background-color: #eee;
 	padding: 0 1.5rem;
 
@@ -161,37 +160,25 @@ h1 {
 	border-radius: 0.8rem;
 
 }
-.post-title {
-	/* margin: 0px 0px 8px 0px;
-	line-height: 20px;
-	font-size: 20px;padding: 10px; */
-	font-size: 2.5rem;
-	margin: 1.5rem 0 2rem;
-	text-transform: uppercase;
-	color: #4facfe;
+/* .post-title {
+
 
 }
 
 .post-image{
-	/* display;
-	box-shadow: 0 0px 0px #cccccc;
-	border-radius: 0px;
-		//margin: 10px 0px 10px 0px; */
-		/* max-width: 100%;
-vertical-align: middle;
-box-sizing: border-box; */
-min-width: 35rem;
+
+/* min-width: 35rem;
 max-width: 35rem;
 height: 30rem;
 transform: translateX(-8rem);
-position: relative;
+position: relative; */
 }
 .post-image img{
-	width: 100%;
+	/* width: 100%;
 	height: 100%;
 	object-fit: cover;
 	display: block;
-	border-radius: 0.8rem;
+	border-radius: 0.8rem; */
 }
 
 .post-date span{
@@ -207,16 +194,11 @@ position: relative;
 }
 
 .post-content {
-	/* margin-top: 10px;
-	font-size: 13px;
-
-	padding: 20px 30px;
-	background: url('http://wpexplorer-demos.com/fabulous/wp-content/themes/wpex-fabulous/images/entry-meta-shadow.png') no-repeat scroll center top #FBFBFB;
-	border-radius: 0px 0px 3px 3px; */
+	
 	margin-bottom: 3rem;
 	font-size: 1.4rem;
 	color: rgba(0, 0, 0,.7);
-}
+} */
 
 #side-bar {
 background: #fff;
