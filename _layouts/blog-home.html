@@ -43,7 +43,7 @@
 					{% for post in site.categories.blog %}
 					<li class='post'>
 						{% if post.image %}
-						<a href='{{site.baseurl}}{{post.url}}'><img class='post-image' src="{{site.baseurl}}{{post.url}}" /></a>
+						<a href='{{site.baseurl}}{{post.url}}'><img class='post-image' src="{{post.url}}" /></a>
 						{% endif %}
 						<div class="postcontent">
 							<a href='{{site.baseurl}}{{post.url}}'>
