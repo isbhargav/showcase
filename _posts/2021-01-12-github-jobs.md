@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Github Jobs Listing
-category: project
+category: blog
 tags: [react]  
 summary: Project to learn react framework and new Hook API.
 image: /images/blog/github_jobs.gif
