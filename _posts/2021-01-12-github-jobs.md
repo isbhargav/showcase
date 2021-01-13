@@ -7,9 +7,7 @@ summary: Project to learn react framework and new Hook API.
 image: /images/blog/github_jobs.gif
 ---
 
-# Github Jobs Listing
-
-![Image](/images/blog/github_jobs.gif)
+Link to project source code : [Project Link](https://github.com/isbhargav/github-jobs)
 
 # Goal of the project
 
